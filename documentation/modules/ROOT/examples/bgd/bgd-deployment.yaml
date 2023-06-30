@@ -30,5 +30,5 @@ spec:
       volumes:
       - name: scratch
         persistentVolumeClaim:
-          claimName: scratch
+          claimName: test-claim
 ---
