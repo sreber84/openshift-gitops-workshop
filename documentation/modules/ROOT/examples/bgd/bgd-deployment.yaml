@@ -23,12 +23,5 @@ spec:
         - name: COLOR
           value: "blue"
         resources: {}
-        volumeMounts:
-        - mountPath: /scratch
-          name: scratch
       restartPolicy: Always
-      volumes:
-      - name: scratch
-        persistentVolumeClaim:
-          claimName: test-claim
 ---
