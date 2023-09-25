@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    team: red
+  labels:
+    team: red
+    kubernetes.io/metadata.name: openshift-pipelines
+    openshift.io/cluster-monitoring: "true"
+    operator.tekton.dev/targetNamespace: "true"
+  name: openshift-pipelines
+spec:
+  finalizers:
+  - kubernetes
+
