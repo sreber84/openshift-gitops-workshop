@@ -10,6 +10,4 @@ spec:
       secrets: "20"
   selector:
     annotations: null
-    labels:
-      matchLabels:
-        color: green
+    labels: null
