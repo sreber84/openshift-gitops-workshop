@@ -12,4 +12,4 @@ spec:
     annotations: null
     labels:
       matchLabels:
-        color: null
+        color: nocolor
